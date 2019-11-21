@@ -1,0 +1,5 @@
+/*导航栏*/
+#navList li a:hover{
+	color:red;
+	background: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery之滑入动画</title>
+	<link href="./dist/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
+		<script src="./dist/lib/jquery-3.4.1.min.js"></script>
+		<script src="./dist/lib/bootstrap/js/bootstrap.min.js"></script>
+		<link href="./dist/css/style.css" rel="stylesheet">
+    <style>
+        
+div{
+  margin:200px;
+  width:150px;
+  height:100px;
+  background:green;
+  -webkit-animation:bounceInLeft 3s ease-in-out 1s 1 alternate forwards;
+}
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+  100% {
+    transform: none;
+  }
+}
+    </style>
+</head>
+<body>
+ 
+	<div></div>
+    
+</body>
+</html>

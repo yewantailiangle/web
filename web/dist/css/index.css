@@ -1,0 +1,61 @@
+/*最新活动新闻列表-首页*/
+#list li a{
+	background-color:#eee;
+}
+#list li a.active{
+	color:red;
+	background-color:#fff;
+}
+#list li a:hover{
+	color:red;
+	background: rgba(0, 0, 0, 0);
+}
+
+
+/*轮播图*/
+.item{
+	width:100%;
+	padding-bottom: 40%;
+	border:1px solid #f00;
+	position: relative;
+	
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;  
+  }
+/*轮播end*/
+
+
+/*左滑入*/
+#leftDiv{
+  margin:10px;
+  width:100%;
+  height:300px;
+  background:green;
+  -webkit-animation:bounceInLeft 3s ease-in-out 1s 1 alternate forwards;
+}
+@keyframes bounceInLeft {
+  0% {
+    
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+  100% {
+    transform: none;
+	
+  }
+}
+/*结束*/

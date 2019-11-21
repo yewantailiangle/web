@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>傻吊玩意</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="./dist/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./dist/css/style.css" rel="stylesheet"/>
+</head>
+<body id = "bb">
+    <nav class="navbar navbar-default hanbao" role="navigation">
+        <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse" data-target="#navbar-collapse"
+                aria-expanded="false">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span><!--斜杠-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-header">
+            <a class="navbar-brand " id="nav-brand-itheima" href="#" >
+              背景变色
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul id="hanbao" class="nav navbar-nav">
+                <li><a href="##">黄色</a></li>
+                <li><a href="##">绿色</a></li>
+                <li><a href="##">蓝色</a></li>
+                <li><a href="##">灰色</a></li>
+            </ul>
+        </div>
+    </nav>
+<br/>
+
+<div id="slidershow" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+            <a href="#">
+                <img src="./dist/img/001.png" style=" height:300px;margin:0 auto;">
+            </a>
+            <div class="carousel-caption">
+                <p>别打扰我</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#">
+                <img src="./dist/img/002.png" style="height:300px;margin:0 auto;">
+            </a>
+            <div class="carousel-caption">
+                <p>告辞</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#">
+                <img src="./dist/img/003.png" style="height:300px;margin:0 auto;">
+            </a>
+            <div class="carousel-caption">
+                <p>真香</p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#slidershow" role="button"
+       data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#slidershow" role="button"
+       data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<script src="./dist/lib/jquery/jquery-1.11.0.min.js"></script>
+<script src="./dist/lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	hanbao[0] = document.getElementById("hanbao").getElementsByTagName("li");
+	bbody = document.getElementById("bb");
+	hanbao[0][0].onclick = function(){		
+		hanbaofun();
+		bbody.style.backgroundColor = "yellow";
+		hanbao[0][0].classList.add("active");
+	};
+	hanbao[0][1].onclick = function(){		
+		hanbaofun();
+		bbody.style.backgroundColor = "greenyellow";
+		hanbao[0][1].classList.add("active");
+	};
+	hanbao[0][2].onclick = function(){		
+		hanbaofun();
+		bbody.style.backgroundColor = "cornflowerblue";
+		hanbao[0][2].classList.add("active");		
+	};
+	hanbao[0][3].onclick = function(){		
+		hanbaofun();
+		bbody.style.backgroundColor = "darkgrey";
+		hanbao[0][3].classList.add("active");	
+	};
+	function hanbaofun(){
+		for(i=0;i < hanbao[0].length;i++){
+			hanbao[0][i].classList.remove("active");
+			hanbao[0][i].style.backgroundColor = "ghostwhite";
+		}
+	}
+</script>
+</body>
+</html>

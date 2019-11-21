@@ -4,3 +4,73 @@ container是内容类
 
 <div class="rs-background-video-layer fulllscreenvideo tp-videolayer" data-forcerewind="on" data-volume="mute" data-videowidth="100%" data-videoheight="100%" data-videomp4="http://xiaoyou.cafa.edu.cn/als/img/index/spot_6.mp4" data-videopreload="preload"
                                          data-videoloop="none" data-forceCover="1" data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true"></div>
+										 
+										 
+    ├─.stage
+          └─dotnet-cnblog
+│              └─1										 
+
+
+dist
+├─css	
+│  ├─index.css
+│  └─...
+├─lib
+│  ├─bootstrap
+│  │	├─js
+│  └─...│
+		│
+│
+│
+│
+│
+│
+│
+
+│  index.html
+│
+└─dist
+    ├─css
+    │      footer.css
+    │      header.css
+    │      index.css
+    │      style.css
+    │
+    ├─lib
+    │  │  jquery-3.4.1.min.js
+    │  │
+    │  └─bootstrap
+    │      ├─css
+    │      │      bootstrap-theme.css
+    │      │      bootstrap-theme.css.map
+    │      │      bootstrap-theme.min.css
+    │      │      bootstrap-theme.min.css.map
+    │      │      bootstrap.css
+    │      │      bootstrap.css.map
+    │      │      bootstrap.min.css
+    │      │      bootstrap.min.css.map
+    │      │
+    │      ├─fonts
+    │      │      glyphicons-halflings-regular.eot
+    │      │      glyphicons-halflings-regular.svg
+    │      │      glyphicons-halflings-regular.ttf
+    │      │      glyphicons-halflings-regular.woff
+    │      │      glyphicons-halflings-regular.woff2
+    │      │
+    │      └─js
+    │              bootstrap.js
+    │              bootstrap.min.js
+    │              npm.js
+    │
+    └─src
+        ├─img
+        │      1.jpg
+        │      12.jpg
+        │      2.jpg
+        │      bg.jpg
+        │      bg.png
+        │      bg.psd
+        │      logo.png
+        │
+        └─video
+                flsh.mp4
