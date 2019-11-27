@@ -1,0 +1,34 @@
+/*Gallery Styles*/
+
+#gallery {
+	width:360px;
+	height: 270px;
+	margin: 0 auto;
+	padding: 10px;
+	background: #383131;
+}
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	width: 360px;
+}
+
+#gallery ul li {
+	float: left;
+	margin: 10px;
+	background: white;
+	height: 100px;
+	width: 100px;
+}
+
+#gallery ul li:hover {
+	border: 3px solid white;
+	margin: 7px;
+	cursor: pointer;
+}
+
+#gallery ul li img{
+	height: 100px;
+	width: 100px;
+}

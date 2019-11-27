@@ -4,8 +4,40 @@ container是内容类
 
 <div class="rs-background-video-layer fulllscreenvideo tp-videolayer" data-forcerewind="on" data-volume="mute" data-videowidth="100%" data-videoheight="100%" data-videomp4="http://xiaoyou.cafa.edu.cn/als/img/index/spot_6.mp4" data-videopreload="preload"
                                          data-videoloop="none" data-forceCover="1" data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true"></div>
-										 
-										 
+index 首页
+
+recolist 记忆页面
+
+rom 内容页面
+
+
+
+
+
+about关于
+
+
+
+boylist校友
+
+newlist 新闻
+
+actlist活动
+
+qiklist期刊
+
+
+
+index首页
+
+
+
+rom 内容页面
+
+
+
+​										 
+
     ├─.stage
           └─dotnet-cnblog
 │              └─1										 
